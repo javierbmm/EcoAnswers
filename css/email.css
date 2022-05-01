@@ -1,0 +1,14 @@
+section.email {
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+section.email  h2 {
+    text-align: center;
+
+}
+
+email-form {
+    width: 100%;
+}
