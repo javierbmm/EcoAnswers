@@ -126,7 +126,7 @@ class emailForm extends HTMLElement {
 
             fetch(endpoint, {
                 method: 'POST',
-                mode: "no-cors",
+                mode: "cors",
                 headers: {
                     'Content-Type': 'application/x-www-form-urlencoded',
                 },
